@@ -1,4 +1,5 @@
 # 1. Napisz program, który sprawdzi, czy podana przez użytkownika liczba jest parzysta, czy nieparzysta.
+
 import random
 
 number = int(input('Enter a number: '))
@@ -60,7 +61,6 @@ for i in range(2, 101):
     if(is_prime):
         print(i)
 
-
 # 6. Napisz program, który wyświetli sumę wszystkich liczb parzystych z przedziału 1-100
 
 sum = 0
@@ -71,6 +71,7 @@ for i in range(1, 101):
 print(f'The sum is: {sum}')
 
 # 7. Napisz program, który policzy pole prostokąta (uzytkownik podaje boki)
+
 a = int(input('Enter a rectangle width: '))
 b = int(input('Enter a rectangle height: '))
 
@@ -87,7 +88,6 @@ if(name.endswith('a')):
 else:
     print('Your name is male')
 
-
 # 9. Pobierz od użytkownika 3 liczby całkowite i uporządkuj je w kolejności od najmniejszej do największej.
 
 a = int(input('Enter a first number : '))
@@ -96,13 +96,13 @@ c = int(input('Enter a third number : '))
 
 print(f' Sorted numbers:{sorted((a, b, c))}')
 
-
-
 # 10. Stwórz grę, w której wylosujesz liczbę z przedziału 1-100, zapiszesz tą liczbę do zmiennej,
 # a następnie poprosisz użytkownika o odgadniecie tej liczby. Po każdej próbie wyświetlaj informację, czy
 # liczba podana przez użytkownika jest < > od wylosowanej. Gdy użytkownik odgadnie liczbę, zakończ grę.
 # (znajdż info jak losować liczby całkowite w pythonie)
+
 random_number = random.randint(1, 100)
+
 print(f'random number is: {random_number}')
 
 while(True):
@@ -116,4 +116,5 @@ while(True):
 
     elif (user_number < random_number):
         print(f'The number is less than random number')
+
 
