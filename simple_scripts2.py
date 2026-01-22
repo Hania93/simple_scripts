@@ -69,7 +69,7 @@ print('Posortowane kraje i stolice:')
 for country, state in sorted_countries:
     print(country + ' - '+ state)
 
-# 8. Stwórz program, który prosi użytkowanika o wpisanie tekstu w  konsoli,
+# 8. Stwórz program, który prosi użytkownika o wpisanie tekstu w  konsoli,
 # a następnie utwórz słownik, w którym kluczami będą słowa występujące
 # w tym tekście, a wartościami liczby wystąpień każdego słowa. Wyświetl
 #zawartość słownika.
@@ -103,6 +103,7 @@ if age < 18:
     print("Jesteś osobą niepełnoletnią.")
 else:
     print("Jesteś osobą pełnoletnią.")
+
 
 
 
